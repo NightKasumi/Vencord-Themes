@@ -1,0 +1,19 @@
+//META{"name":"Honkai Sirin 1","description":"Theme generated using https://vsthemes.org/generator","author":"VSThemes.org","version":"1.0"}*//
+@import url(https://vsthemes.org/uploads/generator/client/BasicBackground.css);
+:root {
+    --transparencycolor: 0,0,0;
+    --transparencyalpha: 0.2;
+    --messagetransparency: 0.8;
+    --guildchanneltransparency: 0.3;
+    --memberlistransparency: 0.2;
+    --accentcolor: 238,33,211;
+    --background: url("https://vsthemes.org/uploads/posts/2022-07/1658956029_sirin-wallpaper-3.png");
+    --backdrop: rgba(0,0,0,0.2);
+    --backgroundblur: 0px;
+    --popoutblur: 0px;
+    --backdropblur: 0px;
+    --version1_0_5:none;
+    --backgroundsize: cover;
+    --popoutsize: cover;
+    --backdropsize: cover;
+}

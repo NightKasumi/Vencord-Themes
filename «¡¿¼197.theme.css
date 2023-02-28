@@ -1,0 +1,64 @@
+/**
+ * @name Project_183
+ * @author 🛸Nod_^_noL🛸
+ * @description Сделано своими руками, с душой
+ * @authorLink https://dsc.bio/moonprincess
+ * @version 1.01
+ */
+@import url(https://8xs4qxklp8.execute-api.us-east-2.amazonaws.com/release/gorawgit?giturl=/puckzxz/NotAnotherAnimeTheme/master/css/scsl.css);
+
+:root {
+    --background-image: url(https://pbs.twimg.com/media/EXcefEzWsAAj3r-.jpg);
+    --friends-icon: url(https://static.zerochan.net/Misaki.Mei.full.1012762.jpg);
+    --friends-icon-position: center center;
+    --friends-icon-zoom: 100%;
+    --main-color: rgb(67, 181, 129); 
+    --main-transparency: rgba(0, 0, 0, 0.35);
+    --unread-server-animation: rainbow;
+    --hover-list-bg-color: rgba(0, 0, 0, 0.15);
+    --border-lines-color: hsla(0,0%,100%,.1);
+    --scroll-bar-color: rgba(255,255,255, .15);
+    --font-size: 16px;
+    --selected-text-voice-color: #f6f6f7;
+    --text-hover-color: #b9bbbe;
+    --voice-hover-color: #f6f6f7;
+    --unread-text-color: #dcddde;
+    --options-transparency: transparent;
+}
+ 
+.wordmark-2iDDfm.wordmarkWindows-1v0lYD {
+  width: auto;
+  height: 22px;
+  padding: 0 0 0 4px;
+  line-height: 22px;
+  font-size: 0.925em;
+  color: var(--text-normal); }
+.wordmark-2iDDfm.wordmarkWindows-1v0lYD:before, .wordmark-2iDDfm.wordmarkWindows-1v0lYD:after {
+    position: relative;
+    width: auto;
+    height: 22px; }
+.wordmark-2iDDfm.wordmarkWindows-1v0lYD:before {
+    content: "DISCORD";
+    font-weight: 700; }
+.wordmark-2iDDfm.wordmarkWindows-1v0lYD:after {
+    content: ", 𝐛𝐲 🛸𝐍𝐨𝐝_𝐧𝐨𝐋🛸"; }
+.wordmark-2iDDfm.wordmarkWindows-1v0lYD svg {
+    display: none; }
+ 
+.titleBar-AC4pGV > .winButtonMinMax-PBQ2gm {
+    background: #71f300 !important;
+    border-radius: 5px !important;
+    width: 10px !important;
+    height: 10px !important;
+    margin: 5px 15px 5px 15px !important;
+    transition: background-color 250ms ease-in;
+}
+
+.winButtonClose-1HsbF- {
+    background: #ff0019 !important;
+    border-radius: 5px !important;
+    width: 10px !important;
+    height: 10px !important;
+    margin: 5px 15px 5px 15px !important;
+    transition: background-color 250ms ease-in;
+}

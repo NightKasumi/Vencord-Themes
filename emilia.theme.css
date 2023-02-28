@@ -1,0 +1,40 @@
+/**
+* @name emilia.exe
+* @description emilia theme xd
+* @version 1.0
+* @author Justsenpai_ | szopjle#4172
+* @authorId 270607409150558208
+*/
+@import url(https://puckzxz.github.io/NotAnotherAnimeTheme/css/scsl.css);
+@import url('https://gibbu.github.io/BetterDiscord-Themes/RadialStatus/base.css');
+
+:root {
+    --background-image: url(https://images.alphacoders.com/710/thumb-1920-710328.png);
+    --friends-icon: url(https://media.tenor.com/images/4461404862e725794f62a37b4addaf63/tenor.gif);
+    --friends-icon-position: center center;
+    --friends-icon-zoom: 100%;
+    --main-color: rgb(255, 255, 255);
+    --main-transparency: rgba(14, 0, 7, 0.776);
+    --unread-server-animation: rainbow;
+    --hover-list-bg-color: rgba(170, 74, 202, 0.212);
+    --border-lines-color: rgba(89, 5, 117, 0.521);
+    --scroll-bar-color: rgba(215, 0, 239, 0.249);
+    --font-size: 16px;
+    --selected-text-voice-color: rgb(118, 40, 174);
+    --unread-text-color: rgb(85, 0, 255);
+    --channel-hover-text-color:rgb(48, 83, 255);
+    --user-popup-background: rgba(0, 0, 0, 0.815);
+    --scrollbar-colour: rgba(25, 72, 190, 0.651);
+    --rs-small-spacing: 1px;
+    --rs-large-spacing: 2px;
+    --rs-width: 2px;
+    --rs-avatar-shape: 42.0%;
+    --rs-online-color: #09ff00;
+    --rs-idle-color: #f87c08;
+    --rs-dnd-color: #fd0000;
+    --rs-offline-color: #242525;
+    --rs-streaming-color: #723bcf;
+    --rs-invisible-color: #8b8b8b;
+    --HSL-server-icon-size: 55px;
+    --HSL-server-spacing: 10px;
+}

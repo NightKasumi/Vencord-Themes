@@ -1,0 +1,57 @@
+/**
+ * @name GreenCatDark
+ * @author GreenCatYT#9912
+ * @version Beta
+ * @description Хей, я создатель ютуб канала GreenCatYT, Эту тему я создал что бы мои подписчики (и обычные люди) смогли наслаждаться дискордом с новыми красками, я очень благодарен тебе что ты скачал её. Ссылка на мой ютуб канал: https://www.youtube.com/c/GreenCatYT :3Не забудь подписаться на мой ютуб если ты ещё этого не сделал, может твоя подписка сможет сделать так что бы видео выходили чаще ;3
+ * @My Youtube https://www.youtube.com/c/GreenCatYT
+ * @My YouTube https://www.youtube.com/c/GreenCatYT
+ * @My Youtube https://www.youtube.com/c/GreenCatYT
+ * @authorId 278543574059057154
+ * @My Youtube https://www.youtube.com/c/GreenCatYT
+ * @My Youtube https://www.youtube.com/c/GreenCatYT
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Segoe+Script:wght@100;300;400;500;700&display=swap');
+@import url('https://discordstyles.github.io/FrostedGlass/base.css');
+@import url('https://discordstyles.github.io/Addons/windows-titlebar.css');
+@import url('https://discordstyles.github.io/RadialStatus/base.css');
+
+:root {
+  --background-image: url('https://i.imgur.com/O2Kuz9Q.jpg');
+  --background-image-blur: 30px;
+  --background-image-size: cover;
+  --background-image-position: center;
+  --popout-modal-image: url('https://i.imgur.com/hIgLVl0.jpg');
+  --popout-modal-blur: 5px;
+  --popout-modal-size: cover;
+  --popout-modal-position: center;
+  --home-button-image: url('https://gibbu.github.io/BetterDiscord-Themes/FrostedGlass/assets/discord.svg');
+  --home-button-size: cover;
+  --home-button-position: center;
+  --serverlist-brightness: 0.8;
+  --left-brightness: 0.94;
+  --middle-brightness: 0.6;
+  --right-brightness: 0;
+  --popout-modal-brightness: 0.92;
+  --gradient-primary: 255,0,206;
+  --gradient-secondary: 33,150,243;
+  --link-colour: #F00FFF;
+  --scrollbar-colour: rgb(172,33,243,1);
+  --gradient-direction: 135deg;
+  --tint-colour: 0,0,0;
+  --tint-brightness: 1;
+  --font: 'Whitney';
+  --window-padding: 0px;
+  --window-roundness: 0px;
+  --show-gift-gif-buttons: block;
+  --update-notice-1: none;
+  --rs-small-spacing: 0px;
+  --rs-large-spacing: 0px;
+  --rs-width: 2px;
+  --rs-avatar-shape: 50%;
+  --rs-online-color: #83FFC7;
+  --rs-idle-color: #FFCC77;
+  --rs-dnd-color: #FF7474;
+  --rs-offline-color: #03A9F4;
+  --rs-streaming-color: #BF00FF;
+}

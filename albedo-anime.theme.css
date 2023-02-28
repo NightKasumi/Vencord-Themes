@@ -1,0 +1,19 @@
+//META{"name":"albedo_anime","description":"Theme generated using https://vsthemes.org/generator","author":"VSThemes.org","version":"1.0"}*//
+@import url(https://vsthemes.org/uploads/generator/client/BasicBackground.css);
+:root {
+    --transparencycolor: 10,2,38;
+    --transparencyalpha: 0.05;
+    --messagetransparency: 0.5;
+    --guildchanneltransparency: 0.2;
+    --memberlistransparency: 0;
+    --accentcolor: 51,17,107;
+    --background: url("https://vsthemes.org/uploads/posts/2021-02/1613161941_maxresdefault.jpg");
+    --backdrop: rgba(0,0,0,0.2);
+    --backgroundblur: 0px;
+    --popoutblur: 0px;
+    --backdropblur: 0px;
+    --version1_0_5:none;
+    --backgroundsize: cover;
+    --popoutsize: cover;
+    --backdropsize: cover;
+}

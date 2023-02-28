@@ -1,0 +1,19 @@
+//META{"name":"ram re:zero","description":"Theme generated using https://vsthemes.org/generator","author":"VSThemes.org","version":"1.0"}*//
+@import url(https://vsthemes.org/uploads/generator/client/BasicBackground.css);
+:root {
+    --transparencycolor: 0,0,0;
+    --transparencyalpha: 0.05;
+    --messagetransparency: 0.05;
+    --guildchanneltransparency: 0.05;
+    --memberlistransparency: 0.05;
+    --accentcolor: 224,36,255;
+    --background: url("https://vsthemes.org/uploads/posts/2021-06/1622758533_anime-anime-girls-ram-re-zero-re-zero-kara-hajimeru-isekai-seikatsu-1841643.jpg");
+    --backdrop: rgba(0,0,0,0.2);
+    --backgroundblur: 0px;
+    --popoutblur: 0px;
+    --backdropblur: 0px;
+    --version1_0_5:none;
+    --backgroundsize: cover;
+    --popoutsize: cover;
+    --backdropsize: cover;
+}

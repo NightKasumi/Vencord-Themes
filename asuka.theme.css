@@ -1,0 +1,84 @@
+/**
+* @name asuka.exe
+* @description Part of the 2nd waifus are better theme pack aka random theme pack 3.
+* @version 1.0
+* @author Justsenpai_ | szopjle#4172
+* @authorId 270607409150558208
+*/
+@import url(https://puckzxz.github.io/NotAnotherAnimeTheme/css/scsl.css);
+@import url('https://gibbu.github.io/BetterDiscord-Themes/RadialStatus/base.css');
+
+:root {
+    --background-image: url(https://images5.alphacoders.com/829/thumb-1920-829610.png);
+    --friends-icon: url(https://i.pinimg.com/originals/54/aa/6a/54aa6a76876f5ed411218a8dde517445.gif);
+    --friends-icon-position: center center;
+    --friends-icon-zoom: 166%;
+    --main-color: rgb(92, 92, 92);
+    --main-transparency: rgba(0, 0, 0, 0.671);
+    --unread-server-animation: rainbow;
+    --hover-list-bg-color: rgba(65, 1, 1, 0.144);
+    --border-lines-color: rgb(0, 0, 0);
+    --scroll-bar-color: rgba(133, 9, 9, 0.242);
+    --font-size: 16px;
+    --selected-text-voice-color: rgba(255, 35, 35, 0.678);
+    --channel-hover-text-color: rgba(211, 20, 20, 0.726);
+    --unread-text-color: rgb(141, 0, 0);
+    --user-popup-background: rgba(26, 1, 1, 0.877);
+    --rs-small-spacing: 1px;
+    --rs-large-spacing: 2px;
+    --rs-width: 2px;
+    --rs-avatar-shape: 42.0%;
+    --rs-online-color: #09ff00;
+    --rs-idle-color: #f87c08;
+    --rs-dnd-color: #fd0000;
+    --rs-offline-color: #242525;
+    --rs-streaming-color: #723bcf;
+    --rs-invisible-color: #8b8b8b;
+    --HSL-server-icon-size: 55px;
+    --HSL-server-spacing: 10px;
+    --header-primary : rgb(199, 1, 1);
+    --header-secondary: #ff0000;
+    --text-normal: #dcddde;
+    --text-muted: #fc0000;
+    --text-link: #f40000;
+    --channels-default: #ceb4b4;
+    --interactive-normal: #745555;
+    --interactive-hover: #ff9797;
+    --interactive-active: #fff;
+    --interactive-muted: #af6161;
+    --background-primary: #240000;
+    --background-secondary: #2e0000a3;
+    --background-secondary-alt: #2f2929;
+    --background-tertiary: #252020;
+    --background-accent: #3a0000;
+    --background-floating: #180000d9;
+    --background-mobile-primary: #e48b8b;
+    --background-mobile-secondary: #2f3136;
+    --background-modifier-hover: rgba(255, 0, 0, 0.111);
+    --background-modifier-active: rgba(255, 0, 0, 0.2);
+    --background-modifier-selected: rgba(255, 0, 0, 0.282);
+    --background-modifier-accent: rgba(255, 0, 0, 0.06);
+    --background-mentioned: rgba(250, 26, 26, 0.138);
+    --background-mentioned-hover: rgba(250, 26, 26, 0.08);
+    --background-message-hover: rgba(255, 0, 0, 0.097);
+    --background-help-warning: rgba(250, 26, 26, 0.1);
+    --background-help-info: rgba(244, 0, 0, 0.1);
+    --scrollbar-thin-thumb: var(--scrollbar-colour);
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-thumb: var(--scrollbar-colour);
+    --scrollbar-auto-track: var(--scrollbar-colour);
+    --scrollbar-auto-scrollbar-color-thumb: #252020;
+    --scrollbar-auto-scrollbar-color-track: #362f2f;
+    --elevation-stroke: 0 0 0 1px rgba(112, 0, 0, 0.254);
+    --elevation-low: 0 1px 0 rgba(141, 23, 23, 0.2),0 1.5px 0 rgba(184, 22, 22, 0.05),0 2px 0 rgba(150, 87, 87, 0.05);
+    --elevation-medium: 0 4px 4px rgba(150, 75, 75, 0.16);
+    --elevation-high: 0 8px 16px rgba(172, 81, 81, 0.24);
+    --logo-primary: rgb(255, 0, 0);
+    --focus-primary: #f40000;
+    --radio-group-dot-foreground: #df5454;
+    --guild-header-text-shadow: 0 1px 1px rgba(0,0,0,0.4);
+    --channeltextarea-background: #9e6868;
+    --activity-card-background: #d34b4b;
+    --textbox-markdown-syntax: #bb7d7d;
+    --info-warning-foreground: #fa1a1a;
+} 

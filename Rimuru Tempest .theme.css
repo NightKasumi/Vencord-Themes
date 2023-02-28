@@ -1,0 +1,55 @@
+/**
+ * @name Rimuru Tempest 
+ * @author SAD SHARK#5716
+ * @version 2.0.0
+ * @description Display your picture of choice with adjustable blur and brightness. Dark theme is required
+ * @source https://github.com/DiscordStyles/FrostedGlass
+ * @invite ZHthyCw
+ * @donate https://paypal.me/IanRGibson
+ * @website https://gibbu.me
+ * @authorId 174868361040232450
+*/
+
+@import url('https://discordstyles.github.io/FrostedGlass/dist/FrostedGlass.css');
+@import url('https://discordstyles.github.io/Addons/windows-titlebar.css');
+@import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css');
+
+:root {
+  --background-image: url('https://i.imgur.com/NJGaU9u.jpg');
+  --background-image-blur: 0px;
+  --background-image-size: cover;
+  --background-image-position: center;
+  --popout-modal-image: transparent;
+  --popout-modal-blur: 0px;
+  --popout-modal-size: cover;
+  --popout-modal-position: center;
+  --home-button-image: url('https://i.imgur.com/Dg8YLg2.jpg');
+  --home-button-size: cover;
+  --home-button-position: center left;
+  --serverlist-brightness: 0.22;
+  --left-brightness: 0.2;
+  --middle-brightness: 0.1;
+  --right-brightness: 0;
+  --popout-modal-brightness: 0.75;
+  --gradient-primary: 255,229,0;
+  --gradient-secondary: 243,0,188;
+  --link-colour: #FFFFFF;
+  --scrollbar-colour: rgba(255,255,255,0.05);
+  --gradient-direction: 320deg;
+  --tint-colour: 255,51,159;
+  --tint-brightness: 0;
+  --font: Whitney;
+  --window-padding: 0px;
+  --window-roundness: 0px;
+  --show-gift-gif-buttons: none;
+  --update-notice-1: none;
+  --rs-small-spacing: 0px;
+  --rs-large-spacing: 0px;
+  --rs-width: 2.5px;
+  --rs-avatar-shape: 50%;
+  --rs-online-color: #F292F9;
+  --rs-idle-color: #faa61a;
+  --rs-dnd-color: #f04747;
+  --rs-offline-color: #636b75;
+  --rs-streaming-color: #643da7;
+}

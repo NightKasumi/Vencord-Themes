@@ -1,0 +1,19 @@
+//META{"name":"Darling in the Franxx","description":"Theme generated using https://vsthemes.org/generator","author":"VSThemes.org","version":"1.0"}*//
+@import url(https://vsthemes.org/uploads/generator/client/BasicBackground.css);
+:root {
+    --transparencycolor: 77,48,79;
+    --transparencyalpha: 0.2;
+    --messagetransparency: 0.05;
+    --guildchanneltransparency: 0.5;
+    --memberlistransparency: 0.35;
+    --accentcolor: 118,47,120;
+    --background: url("https://vsthemes.org/uploads/posts/2021-04/1618112482_721a6169cb2dcca92bee27970a2d4229.png");
+    --backdrop: rgba(0,0,0,0.2);
+    --backgroundblur: 0px;
+    --popoutblur: 0px;
+    --backdropblur: 0px;
+    --version1_0_5:none;
+    --backgroundsize: cover;
+    --popoutsize: cover;
+    --backdropsize: cover;
+}
