@@ -1,0 +1,77 @@
+/**
+ * @name eevee-theme-1
+ * @author LeafyLuigi
+ * @version 0.2.4
+ * @description Cool Eevee Theme
+ * @source https://github.com/LeafyLuigi/discord-themes/tree/master/pyrite
+ * @website https://github.com/LeafyLuigi/discord-themes/tree/master/pyrite
+ * @BDEditor Pyrite
+*/
+
+@import url('https://leafyluigi.github.io/discord-themes/pyrite/build/base.css');
+@import url('https://nyri4.github.io/Discolored/main.css');
+@import url('https://leafyluigi.github.io/discord-themes/pyrite/build/userModalLayout.css');
+@import url('https://leafyluigi.github.io/discord-themes/pyrite/build/better-discord.css');
+@import url('https://leafyluigi.github.io/discord-themes/pyrite/build/vencord.css');
+@import url('https://leafyluigi.github.io/discord-themes/whitney.css');
+@import url('https://leafyluigi.github.io/discord-themes/pyrite/build/borders.css');
+
+:root {
+  --primary-color: #906E52;
+  --secondary-color: #8E7C64;
+  --hover-color: #C9C1A9;
+  --tooltip-color: #4F3B30;
+  --background-image: url('https://i.imgur.com/RozXVce.jpeg');
+  --background-attachment: scroll;
+  --user-modal-image: url('https://i.imgur.com/byEnrqF.png');
+  --user-modal-attachment: scroll;
+  --user-modal-width: 900px;
+  --user-modal-height: 600px;
+  --user-popout-image: url('https://i.imgur.com/4RkBiHR.jpeg');
+  --user-popout-attachment: scroll;
+  --home-icon: url('https://i.imgur.com/sOYWjrT.gif');
+  --category-color: var(--header-primary);
+  --selected-channel-color: var(--header-primary);
+  --unread-channel-color: var(--primary-color);
+  --unread-channel-glow: drop-shadow(0 0 4px);
+  --read-channel-color: var(--interactive-normal);
+  --muted-channel-color: var(--interactive-muted);
+  --show-channel-unread-dot: block;
+  --locked-voice-channel-color: var(--red-color);
+  --green-color: #43b581;
+  --yellow-color: #f9a719;
+  --red-color: #ec4144;
+  --live-color: #583594;
+  --offline-color: #737e8c;
+  --link-color: #00aef3;
+  --body-font: Whitney, "gg sans", "Noto Sans", "Helvetica Neue", Helvetica, sans-serif;
+  --code-font: Hack, Monaco, Consolas, Courier, monospace;
+  --hide-speed: 0.5s;
+  --hide-member-list: 1;
+  --hide-active-now: 1;
+  --hide-profile-panel: 1;
+  --hide-channel-list: 0;
+  --mention-background: var(--primary-color);
+  --mention-opacity: 0.3;
+  --win-min-max-close-button-width: 28px;
+  --card-background: rgba(0,0,0,0.5);
+  --side-shading: rgba(0,0,0,0.5);
+  --middle-shading: rgba(0,0,0,0.3);
+  --header-shading: rgba(0,0,0,0.7);
+  --hover-filter: rgba(0,0,0,0.2);
+  --active-filter: rgba(0,0,0,0.4);
+  --card-background: rgba(255,255,255,0.05);
+  --side-shading: rgba(255,255,255,0.4);
+  --middle-shading: rgba(255,255,255,0.3);
+  --header-shading: rgba(255,255,255,0.5);
+  --hover-filter: rgba(255,255,255,0.2);
+  --active-filter: rgba(255,255,255,0.4);
+  --HSL-server-icon-size: 40px;
+  --HSL-server-spacing: 10px;
+  --HSL-server-direction: column;
+  --update-notice-dec23: none; /* Debug; please do not touch */
+}
+
+/* Any custom CSS below here */
+
+
