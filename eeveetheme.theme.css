@@ -7,6 +7,9 @@
  * @BDEditor Clear Vision
 */
 
+@import url('https://clearvision.github.io/ClearVision-v6/main.css');
+@import url('https://nyri4.github.io/Discolored/main.css');
+
 :root {
   --main-color: #9F5F0B;
   --hover-color: #CD8D39;
