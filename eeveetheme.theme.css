@@ -1,75 +1,87 @@
 /**
- * @name eevee-theme-1
- * @author LeafyLuigi
- * @version 0.2.4
+ * @name eevee-theme-1-RE
+ * @author Bananas
+ * @version 6.9.0
  * @description Cool Eevee Theme
- * @source https://github.com/LeafyLuigi/discord-themes/tree/master/pyrite
- * @website https://github.com/LeafyLuigi/discord-themes/tree/master/pyrite
- * @BDEditor Pyrite
+ * @source https://github.com/ClearVision/ClearVision-v6
+ * @BDEditor Clear Vision
 */
 
-@import url('https://leafyluigi.github.io/discord-themes/pyrite/build/base.css');
+@import url('https://clearvision.github.io/ClearVision-v6/main.css');
 @import url('https://nyri4.github.io/Discolored/main.css');
-@import url('https://leafyluigi.github.io/discord-themes/pyrite/build/userModalLayout.css');
-@import url('https://leafyluigi.github.io/discord-themes/pyrite/build/better-discord.css');
-@import url('https://leafyluigi.github.io/discord-themes/pyrite/build/vencord.css');
-@import url('https://leafyluigi.github.io/discord-themes/whitney.css');
-@import url('https://leafyluigi.github.io/discord-themes/pyrite/build/borders.css');
 
 :root {
-  --primary-color: #906E52;
-  --secondary-color: #8E7C64;
-  --hover-color: #C9C1A9;
-  --tooltip-color: #4F3B30;
-  --background-image: url('https://i.imgur.com/RozXVce.jpeg');
+  --main-color: #9F5F0B;
+  --hover-color: #CD8D39;
+  --success-color: #B58F2C;
+  --danger-color: #982929;
+  --url-color: var(--main-color);
+  --background-image: url('https://i.imgur.com/hkK4cso.jpeg');
+  --background-shading: 100%;
+  --background-position: center;
+  --background-size: cover;
+  --background-repeat: no-repeat;
   --background-attachment: scroll;
-  --user-modal-image: url('https://i.imgur.com/byEnrqF.png');
-  --user-modal-attachment: scroll;
-  --user-modal-width: 900px;
-  --user-modal-height: 600px;
-  --user-popout-image: url('https://i.imgur.com/4RkBiHR.jpeg');
+  --background-brightness: 100%;
+  --background-contrast: 100%;
+  --background-saturation: 100%;
+  --background-grayscale: 0%;
+  --background-invert: 0%;
+  --background-blur: 0px;
+  --background-overlay: rgba(0,0,0,0.6);
+  --user-popout-image: url('https://i.imgur.com/9bmaNfr.jpeg');
+  --user-popout-position: center;
+  --user-popout-size: cover;
+  --user-popout-repeat: no-repeat;
   --user-popout-attachment: scroll;
-  --home-icon: url('https://i.imgur.com/sOYWjrT.gif');
-  --category-color: var(--header-primary);
-  --selected-channel-color: var(--header-primary);
-  --unread-channel-color: var(--primary-color);
-  --unread-channel-glow: drop-shadow(0 0 4px);
-  --read-channel-color: var(--interactive-normal);
-  --muted-channel-color: var(--interactive-muted);
-  --show-channel-unread-dot: block;
-  --locked-voice-channel-color: var(--red-color);
-  --green-color: #43b581;
-  --yellow-color: #f9a719;
-  --red-color: #ec4144;
-  --live-color: #583594;
-  --offline-color: #737e8c;
-  --link-color: #00aef3;
-  --body-font: Whitney, "gg sans", "Noto Sans", "Helvetica Neue", Helvetica, sans-serif;
-  --code-font: Hack, Monaco, Consolas, Courier, monospace;
-  --hide-speed: 0.5s;
-  --hide-member-list: 1;
-  --hide-active-now: 1;
-  --hide-profile-panel: 1;
-  --hide-channel-list: 0;
-  --mention-background: var(--primary-color);
-  --mention-opacity: 0.3;
-  --win-min-max-close-button-width: 28px;
-  --card-background: rgba(0,0,0,0.5);
-  --side-shading: rgba(0,0,0,0.5);
-  --middle-shading: rgba(0,0,0,0.3);
-  --header-shading: rgba(0,0,0,0.7);
-  --hover-filter: rgba(0,0,0,0.2);
-  --active-filter: rgba(0,0,0,0.4);
-  --card-background: rgba(255,255,255,0.05);
-  --side-shading: rgba(255,255,255,0.4);
-  --middle-shading: rgba(255,255,255,0.3);
-  --header-shading: rgba(255,255,255,0.5);
-  --hover-filter: rgba(255,255,255,0.2);
-  --active-filter: rgba(255,255,255,0.4);
-  --HSL-server-icon-size: 40px;
-  --HSL-server-spacing: 10px;
-  --HSL-server-direction: column;
-  --update-notice-dec23: none; /* Debug; please do not touch */
+  --user-popout-brightness: 100%;
+  --user-popout-contrast: 100%;
+  --user-popout-saturation: 100%;
+  --user-popout-grayscale: 0%;
+  --user-popout-invert: 0%;
+  --user-popout-blur: 3px;
+  --user-modal-image: url('https://i.imgur.com/mLUupB1.png');
+  --user-modal-position: center;
+  --user-modal-size: cover;
+  --user-modal-repeat: no-repeat;
+  --user-modal-attachment: scroll;
+  --user-modal-brightness: 100%;
+  --user-modal-contrast: 100%;
+  --user-modal-saturation: 100%;
+  --user-modal-grayscale: 0%;
+  --user-modal-invert: 0%;
+  --user-modal-blur: 3px;
+  --home-icon: url('https://i.imgur.com/0jLUDsQ.gif');
+  --home-position: center;
+  --home-size: 40px;
+  --channel-unread: var(--main-color);
+  --channel-color: rgba(255,255,255,0.3);
+  --muted-color: rgba(255,255,255,0.1);
+  --online-color: #43b581;
+  --idle-color: #faa61a;
+  --dnd-color: #982929;
+  --streaming-color: #593695;
+  --offline-color: #808080;
+  --main-font: gg sans;
+  --code-font: Consolas;
+  --channels-width: 220px;
+  --members-width: 240px;
+  --backdrop-overlay: rgba(0,0,0,0.8);
+  --backdrop-image: var(--background-image);
+  --backdrop-position: var(--background-position);
+  --backdrop-size: var(--background-size);
+  --backdrop-repeat: var(--background-repeat);
+  --backdrop-attachment: var(--background-attachment);
+  --backdrop-brightness: var(--background-brightness);
+  --backdrop-contrast: var(--background-contrast);
+  --backdrop-saturation: var(--background-saturation);
+  --backdrop-invert: var(--background-invert);
+  --backdrop-grayscale: var(--background-grayscale);
+  --backdrop-sepia: var(--background-sepia);
+  --backdrop-blur: var(--background-blur);
+  --bd-blue: var(--main-color);
+  --bd-blue-hover: var(--hover-color);
+  --bd-blue-active: var(--hover-color);
 }
 
 /* Any custom CSS below here */
