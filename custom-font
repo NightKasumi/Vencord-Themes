@@ -1,0 +1,27 @@
+:root {
+    --font-primary: var(--customFont) ,"Whitney";
+    --font-display: var(--customFont) ,"Whitney";
+}
+::placeholder, body, button, input, select, textarea{
+    font-family: var(--customFont) !important;
+}
+/*
+     FILE ARCHIVED ON 22:28:29 Dec 01, 2022 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 20:56:43 Jan 29, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 3.019
+  exclusion.robots: 0.037
+  exclusion.robots.policy: 0.017
+  esindex: 0.026
+  cdx.remote: 126.976
+  LoadShardBlock: 193.101 (3)
+  PetaboxLoader3.datanode: 172.034 (4)
+  load_resource: 97.567
+  PetaboxLoader3.resolve: 55.586
+*/
